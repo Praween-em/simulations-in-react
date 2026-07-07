@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // Change '/trig-simulations/' to match your GitHub repo name exactly.
 // If the repo is at github.com/yourname/trig-simulations, keep this as-is.
 export default defineConfig({
-  base: '/trig-simulations/',
+  base: '/simulations-in-react/',
   plugins: [react()],
   build: {
     chunkSizeWarningLimit: 600,
